@@ -14,10 +14,10 @@ WebSearchTool lets Claude Code query the internet for up-to-date information. Th
 ### Input & Execution
 
 📥 Inputquery: string
-allowed\_domains?: string\[]
-blocked\_domains?: string\[]⚙️ How it runsWrapper tool:
+allowed_domains?: string[]
+blocked_domains?: string[]⚙️ How it runsWrapper tool:
 Outer standard tool call → inner second model call
-extraToolSchemas injects web\_search
+extraToolSchemas injects web_search
 
 ***
 

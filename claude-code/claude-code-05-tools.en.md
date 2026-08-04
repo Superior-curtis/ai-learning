@@ -98,7 +98,7 @@ The key is `filterToolsByDenyRules` — tools are filtered by permission rules b
 ### Interactive exercise: match the filter conditions
 
 Match conditions to resultsCondition A
-ENABLE\_LSP\_TOOL is not setResult
+ENABLE_LSP_TOOL is not setResult
 LSPTool is not registeredCondition B
 hasEmbeddedSearchTools() returns trueResult
 GlobTool and GrepTool are skippedCondition C

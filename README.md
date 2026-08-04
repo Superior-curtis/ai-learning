@@ -1,10 +1,77 @@
-# AI Learning Hub
+# AI Learning Hub — 一本 AI 產業的書
 
-> AI moves fast. This is a **bilingual (中文 / English) learning library** covering Claude Code, AI agents, LLM internals, local AI, and AI security.
+> AI moves fast. This is a **bilingual (中文 / English) book** that grows into a reference for the whole AI industry — from how models guess the next word, to building agents, to the economics of the field.
 
-## What's inside
+## 目錄 / Table of Contents
 
-## 01 · Claude Code / Claude Code  (51 篇)
+| Part | Title | 篇數 |
+|---|---|---|
+| **00** | **Foundations** / 導論 | 1 |
+| **01** | **How Models Work** / 模型原理 | 9 |
+| **02** | **Building Applications** / 建構應用 | 4 |
+| **03** | **Tools & Platforms** / 工具與平台 | 55 |
+| **04** | **Industry & Business** / 產業與商業 | 0 |
+| **05** | **Safety & Society** / 安全與社會 | 4 |
+
+## 00 · Foundations / 導論 (1 篇)
+
+> What AI is, where it came from, why now.
+
+### AI Foundations / AI 導論  (1 篇)
+
+> From zero: what AI is, where it came from, why now.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [什麼是 AI：一份白話地圖](intro/intro-01-what-is-ai.zh.md) | [What Is AI: A Plain-English Map](intro/intro-01-what-is-ai.en.md) | 2026-08-04 |
+
+## 01 · How Models Work / 模型原理 (9 篇)
+
+> From next-token prediction to training and model families.
+
+### LLM Core / LLM 基礎  (5 篇)
+
+> How models predict the next word: tokens, context, sampling, hallucination.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [預測下一個詞：LLM 的核心把戲](llm-core/llmcore-01-next-token.zh.md) | [Predicting the Next Word: The Core Trick](llm-core/llmcore-01-next-token.en.md) | 2026-08-04 |
+| 2 | [Token：語言不是以「字」為單位](llm-core/llmcore-02-tokens.zh.md) | [Tokens: Language Isn't Processed as Words](llm-core/llmcore-02-tokens.en.md) | 2026-08-04 |
+| 3 | [上下文窗口：模型能看到多遠](llm-core/llmcore-03-context.zh.md) | [The Context Window: How Far the Model Can See](llm-core/llmcore-03-context.en.md) | 2026-08-04 |
+| 4 | [抽樣與溫度：怎麼「猜」是可以調的](llm-core/llmcore-04-sampling.zh.md) | [Sampling & Temperature: How the “Guessing” Can Be Tuned](llm-core/llmcore-04-sampling.en.md) | 2026-08-04 |
+| 5 | [幻覺：當預測失誤時](llm-core/llmcore-05-hallucination.zh.md) | [Hallucination: When the Prediction Goes Wrong](llm-core/llmcore-05-hallucination.en.md) | 2026-08-04 |
+
+### LLM Internals / LLM 原理  (4 篇)
+
+> Attention, RAG, embeddings, quantization — how models work.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [注意力機制：模型如何決定「誰該聽誰」](llm-internals/llm-01-attention.zh.md) | [Attention: How Models Decide Who Listens to Whom](llm-internals/llm-01-attention.en.md) | 2026-08-01 |
+| 2 | [嵌入與向量搜尋：把語意放進座標空間](llm-internals/llm-02-embeddings.zh.md) | [Embeddings and Vector Search: Putting Semantics into Coordinates](llm-internals/llm-02-embeddings.en.md) | 2026-08-01 |
+| 3 | [RAG 從第一性原理講起：檢索增強生成](llm-internals/llm-03-rag.zh.md) | [RAG from First Principles: Retrieval-Augmented Generation](llm-internals/llm-03-rag.en.md) | 2026-08-01 |
+| 4 | [量化：用更少的記憶體跑模型](llm-internals/llm-04-quantization.zh.md) | [Quantization: Running Models on Less Memory](llm-internals/llm-04-quantization.en.md) | 2026-08-01 |
+
+## 02 · Building Applications / 建構應用 (4 篇)
+
+> Prompting, RAG, fine-tuning, agents, and MCP.
+
+### AI Agents / AI 代理  (4 篇)
+
+> LangGraph, CrewAI, sub-agents, and orchestration.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [什麼是 AI Agent？從定義到代理迴圈](agents/agents-01-what-is-agent.zh.md) | [What Is an AI Agent? From Definition to the Agent Loop](agents/agents-01-what-is-agent.en.md) | 2026-08-01 |
+| 2 | [Agent 編排：單一代理 vs 多代理](agents/agents-02-orchestration.zh.md) | [Agent Orchestration: Single vs Multi-Agent](agents/agents-02-orchestration.en.md) | 2026-08-01 |
+| 3 | [MCP 與 Agent 生態系：工具標準化的關鍵](agents/agents-03-mcp.zh.md) | [MCP and the Agent Ecosystem: The Key to Standardizing Tools](agents/agents-03-mcp.en.md) | 2026-08-01 |
+| 4 | [動手打造你的第一個 Agent：逐步教學](agents/agents-04-first-agent.zh.md) | [Build Your First Agent, Step by Step](agents/agents-04-first-agent.en.md) | 2026-08-01 |
+
+## 03 · Tools & Platforms / 工具與平台 (55 篇)
+
+> Claude Code, local AI, model providers, and vector DBs.
+
+### Claude Code / Claude Code  (51 篇)
 
 > Anthropic's terminal AI agent: architecture, tools, and practice.
 
@@ -62,29 +129,7 @@
 | 50 | [一次任務的生命週期：Claude Code 代理迴圈逐步拆解](claude-code/claude-code-49-agent-loop.zh.md) | [Life of a Task: The Claude Code Agent Loop, Step by Step](claude-code/claude-code-49-agent-loop.en.md) | 2026-07-28 |
 | 51 | [Claude Code 完全入門指南](claude-code/claude-code-guide.zh.md) | [Claude Code Complete Beginner's Guide](claude-code/claude-code-guide.en.md) | 2026-07-27 |
 
-## 02 · AI Agents / AI 代理  (4 篇)
-
-> LangGraph, CrewAI, sub-agents, and orchestration.
-
-| # | 文章 (中文) | English | 日期 |
-|---|---|---|---|
-| 1 | [什麼是 AI Agent？從定義到代理迴圈](agents/agents-01-what-is-agent.zh.md) | [What Is an AI Agent? From Definition to the Agent Loop](agents/agents-01-what-is-agent.en.md) | 2026-08-01 |
-| 2 | [Agent 編排：單一代理 vs 多代理](agents/agents-02-orchestration.zh.md) | [Agent Orchestration: Single vs Multi-Agent](agents/agents-02-orchestration.en.md) | 2026-08-01 |
-| 3 | [MCP 與 Agent 生態系：工具標準化的關鍵](agents/agents-03-mcp.zh.md) | [MCP and the Agent Ecosystem: The Key to Standardizing Tools](agents/agents-03-mcp.en.md) | 2026-08-01 |
-| 4 | [動手打造你的第一個 Agent：逐步教學](agents/agents-04-first-agent.zh.md) | [Build Your First Agent, Step by Step](agents/agents-04-first-agent.en.md) | 2026-08-01 |
-
-## 03 · LLM Internals / LLM 原理  (4 篇)
-
-> Attention, RAG, embeddings, quantization — how models work.
-
-| # | 文章 (中文) | English | 日期 |
-|---|---|---|---|
-| 1 | [注意力機制：模型如何決定「誰該聽誰」](llm-internals/llm-01-attention.zh.md) | [Attention: How Models Decide Who Listens to Whom](llm-internals/llm-01-attention.en.md) | 2026-08-01 |
-| 2 | [嵌入與向量搜尋：把語意放進座標空間](llm-internals/llm-02-embeddings.zh.md) | [Embeddings and Vector Search: Putting Semantics into Coordinates](llm-internals/llm-02-embeddings.en.md) | 2026-08-01 |
-| 3 | [RAG 從第一性原理講起：檢索增強生成](llm-internals/llm-03-rag.zh.md) | [RAG from First Principles: Retrieval-Augmented Generation](llm-internals/llm-03-rag.en.md) | 2026-08-01 |
-| 4 | [量化：用更少的記憶體跑模型](llm-internals/llm-04-quantization.zh.md) | [Quantization: Running Models on Less Memory](llm-internals/llm-04-quantization.en.md) | 2026-08-01 |
-
-## 04 · Local AI / 本地 AI  (4 篇)
+### Local AI / 本地 AI  (4 篇)
 
 > Ollama, llama.cpp, self-hosted models, offline inference.
 
@@ -95,7 +140,15 @@
 | 3 | [Apple Silicon 與 NVIDIA：在你的硬體上跑模型](local-ai/local-03-mac-vs-gpu.zh.md) | [Apple Silicon vs NVIDIA: Running Models on Your Hardware](local-ai/local-03-mac-vs-gpu.en.md) | 2026-08-01 |
 | 4 | [打造一套完全私密的本地 RAG 流程](local-ai/local-04-local-rag.zh.md) | [Build a Private Local RAG Stack](local-ai/local-04-local-rag.en.md) | 2026-08-01 |
 
-## 05 · AI Security / AI 安全  (4 篇)
+## 04 · Industry & Business / 產業與商業 (0 篇)
+
+> Landscape, economics, startups, and AI & work.
+
+## 05 · Safety & Society / 安全與社會 (4 篇)
+
+> Security, alignment, policy, and ethics.
+
+### AI Security / AI 安全  (4 篇)
 
 > Prompt injection, jailbreaks, evals, and the model attack surface.
 
@@ -112,4 +165,4 @@ Articles are in Markdown (converted from the interactive MDX originals on the we
 
 ---
 
-_Built with ❤️ — bilingual deep dives on AI, from the [myself](https://blog-916bd.web.app) website._
+_Built with ❤️ — a bilingual book on the AI industry, from the [myself](https://blog-916bd.web.app) website._

@@ -18,7 +18,7 @@ GrepTool 負責在檔案內容裡搜尋文字或正則模式。在真實使用�
 ### 三種輸出模式
 
 📄 content
-看匹配周邊上下文📁 files\_with\_matches
+看匹配周邊上下文📁 files_with_matches
 先知道哪些檔案相關🔢 count
 影響範圍或匹配規模
 

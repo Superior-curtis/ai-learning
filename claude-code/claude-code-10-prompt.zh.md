@@ -32,7 +32,7 @@ Output Style
 MCP Instructions⬇使用者自訂
 &#x20;→&#x20;
 \--system-prompt（取代） / --append-system-prompt（追加）⬇Teammate Addendum
-&#x20;\+&#x20;
+&#x20;+&#x20;
 工具級 Prompt⬇QueryEngine 主循環 → 最終發送給模型
 
 ***
@@ -89,7 +89,7 @@ R
 
 工具 prompt 不是告訴模型「工具有存在」，而是指導**何時用、怎麼用、不要怎麼用**：
 
-📖 FileReadTool prompt• file\_path 必須是絕對路徑
+📖 FileReadTool prompt• file_path 必須是絕對路徑
 • 預設讀取 2000 行
 • 不能讀目錄（用 Bash ls）
 • 使用者給截圖路徑必須用此工具⚡ BashTool prompt有專用工具時不要用 Bash
@@ -114,7 +114,7 @@ R
 
 Prompt 來源配對Prompt 內容
 層級「你是一個互動式 Agent，負責軟體工程任務」
-第一層：主 System Prompt「file\_path 必須是絕對路徑」
+第一層：主 System Prompt「file_path 必須是絕對路徑」
 第五層：工具級 Prompt「你正在以團隊 Agent 身分運行，使用 SendMessage 溝通」
 第四層：Teammate 模式「當前語言設定：繁體中文」
 第二層：動態 Section

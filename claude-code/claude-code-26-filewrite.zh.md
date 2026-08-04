@@ -13,7 +13,7 @@ FileWriteTool 適合兩種典型場景：**新建一個檔案**、**用一整塊
 
 ### 輸入與輸出
 
-📥 輸入file\_path: string
+📥 輸入file_path: string
 content: string寫到哪裡、寫什麼內容📤 輸出type: 'create' | 'update'
 structuredPatch
 originalFile

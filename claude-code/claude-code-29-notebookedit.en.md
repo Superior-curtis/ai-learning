@@ -25,7 +25,7 @@ Validate the file extension and permissions
 ⬇
 Read and parse the notebook JSON
 ⬇
-Perform replace/insert/delete by cell\_id
+Perform replace/insert/delete by cell_id
 ⬇
 Preserve notebook structure → write back
 

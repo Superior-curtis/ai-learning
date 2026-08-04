@@ -21,7 +21,7 @@ Multi-agent capability is not a hidden experiment; it is treated as **part of th
 
 🧑‍💼 Main-thread AgentAgentTool
 spawns a sub-agent
-independent context windowTask\* Tools
+independent context windowTask* Tools
 create/manage tasks
 independent tool executionSendMessage
 inter-agent communication

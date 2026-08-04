@@ -92,18 +92,18 @@ def self_attention(X, Wq, Wk, Wv, d_k):
 
 | 張量 | 形狀 | 意義 |
 |------|------|------|
-| X | (seq\_len, d\_model) | 輸入詞向量 |
-| Q、K | (seq\_len, d\_k) | 查詢與鑰匙 |
-| V | (seq\_len, d\_v) | 內容向量 |
-| scores | (seq\_len, seq\_len) | 每對詞的相似度 |
-| weights | (seq\_len, seq\_len) | softmax 後的注意力分配 |
-| output | (seq\_len, d\_v) | 上下文感知的新表示 |
+| X | (seq_len, d_model) | 輸入詞向量 |
+| Q、K | (seq_len, d_k) | 查詢與鑰匙 |
+| V | (seq_len, d_v) | 內容向量 |
+| scores | (seq_len, seq_len) | 每對詞的相似度 |
+| weights | (seq_len, seq_len) | softmax 後的注意力分配 |
+| output | (seq_len, d_v) | 上下文感知的新表示 |
 
 實際模型中通常 `d_model = 768 ~ 12288`，`d_k = d_v = d_model / num_heads`。
 
-## 為什麼要除以 √d\_k
+## 為什麼要除以 √d_k
 
-`Q @ K.T` 的結果是 d\_k 個數字的內積。維度越高，內積的數值越大，softmax 會迅速「飽和」到接近 one-hot——梯度就消失了。除以 `√d_k` 讓分數維持在合理的尺度，是注意力得以穩定訓練的關鍵細節。
+`Q @ K.T` 的結果是 d_k 個數字的內積。維度越高，內積的數值越大，softmax 會迅速「飽和」到接近 one-hot——梯度就消失了。除以 `√d_k` 讓分數維持在合理的尺度，是注意力得以穩定訓練的關鍵細節。
 
 ## 從單頭到多頭注意力
 

@@ -32,7 +32,7 @@ Output Style
 MCP Instructions⬇User customization
 &#x20;→&#x20;
 \--system-prompt (replace) / --append-system-prompt (append)⬇Teammate Addendum
-&#x20;\+&#x20;
+&#x20;+&#x20;
 Tool-level Prompt⬇QueryEngine main loop → finally sent to the model
 
 ***
@@ -89,7 +89,7 @@ This isn't a "knowledge prompt" — it's a **role-switching prompt**, letting th
 
 Tool prompts don't tell the model "the tool exists" — they guide **when to use it, how to use it, and what not to do**:
 
-📖 FileReadTool prompt• file\_path must be an absolute path
+📖 FileReadTool prompt• file_path must be an absolute path
 • reads 2000 lines by default
 • can't read directories (use Bash ls)
 • if the user gives a screenshot path, this tool must be used⚡ BashTool promptDon't use Bash when a dedicated tool exists
@@ -114,7 +114,7 @@ Keeps working in the background flow
 
 Prompt source matchingPrompt content
 Layer"You are an interactive agent responsible for software engineering tasks"
-Layer 1: Main System Prompt"file\_path must be an absolute path"
+Layer 1: Main System Prompt"file_path must be an absolute path"
 Layer 5: Tool-level Prompt"You are running as a team agent; use SendMessage to communicate"
 Layer 4: Teammate mode"Current language setting: Traditional Chinese"
 Layer 2: Dynamic Section

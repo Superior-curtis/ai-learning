@@ -92,18 +92,18 @@ How to read it: look at the "sat" row — it gives 15% of its attention to "cat"
 
 | Tensor | Shape | Meaning |
 |--------|-------|---------|
-| X | (seq\_len, d\_model) | input token vectors |
-| Q, K | (seq\_len, d\_k) | queries and keys |
-| V | (seq\_len, d\_v) | value vectors |
-| scores | (seq\_len, seq\_len) | pairwise similarity |
-| weights | (seq\_len, seq\_len) | attention distribution after softmax |
-| output | (seq\_len, d\_v) | context-aware representations |
+| X | (seq_len, d_model) | input token vectors |
+| Q, K | (seq_len, d_k) | queries and keys |
+| V | (seq_len, d_v) | value vectors |
+| scores | (seq_len, seq_len) | pairwise similarity |
+| weights | (seq_len, seq_len) | attention distribution after softmax |
+| output | (seq_len, d_v) | context-aware representations |
 
 In real models `d_model` is typically `768` to `12288`, with `d_k = d_v = d_model / num_heads`.
 
-## Why divide by √d\_k
+## Why divide by √d_k
 
-`Q @ K.T` is a dot product over d\_k numbers. The higher the dimension, the larger the dot products, and softmax quickly saturates toward a near one-hot distribution — gradients vanish. Dividing by `√d_k` keeps scores at a sane scale; it is a key detail that makes attention trainable.
+`Q @ K.T` is a dot product over d_k numbers. The higher the dimension, the larger the dot products, and softmax quickly saturates toward a near one-hot distribution — gradients vanish. Dividing by `√d_k` keeps scores at a sane scale; it is a key detail that makes attention trainable.
 
 ## From single-head to multi-head attention
 

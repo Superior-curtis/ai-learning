@@ -13,7 +13,7 @@ FileWriteTool suits two typical scenarios: **creating a new file** and **overwri
 
 ### Input and Output
 
-📥 Inputfile\_path: string
+📥 Inputfile_path: string
 content: stringWhere to write, and what content to write📤 Outputtype: 'create' | 'update'
 structuredPatch
 originalFile

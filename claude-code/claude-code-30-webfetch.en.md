@@ -38,7 +38,7 @@ Distilled result returns to the main loop (not the whole page)
 
 🔄 Redirect checksCross-domain redirects not auto-followed
 ⏳ 15-minute cacheLRU cache avoids re-fetching
-📏 URL length limitMAX\_URL\_LENGTH = 2000
+📏 URL length limitMAX_URL_LENGTH = 2000
 
 ***
 

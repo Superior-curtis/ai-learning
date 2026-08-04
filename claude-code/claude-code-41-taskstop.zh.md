@@ -11,4 +11,4 @@ TaskStopTool 的目標很明確：停止一個正在運行的後台任務。通�
 
 ### 一句話總結
 
-> TaskStopTool 給 Claude Code 的後台執行鏈補上了\*\*「中斷」能力\*\*——這是正式任務系統不可缺的一環。
+> TaskStopTool 給 Claude Code 的後台執行鏈補上了**「中斷」能力**——這是正式任務系統不可缺的一環。

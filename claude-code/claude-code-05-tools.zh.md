@@ -98,7 +98,7 @@ messages
 ### 互動練習：動態篩選配對
 
 條件與結果配對條件 A
-ENABLE\_LSP\_TOOL 未設定結果
+ENABLE_LSP_TOOL 未設定結果
 LSPTool 不會被註冊條件 B
 hasEmbeddedSearchTools() 為 true結果
 GlobTool 和 GrepTool 被跳過條件 C

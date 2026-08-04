@@ -18,7 +18,7 @@ GrepTool is responsible for searching file contents for text or regex patterns. 
 ### Three Output Modes
 
 📄 content
-See the context around matches📁 files\_with\_matches
+See the context around matches📁 files_with_matches
 First know which files are relevant🔢 count
 Scope of impact or match volume
 

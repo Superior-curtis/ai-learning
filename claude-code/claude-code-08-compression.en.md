@@ -110,10 +110,10 @@ Raw history
 → lots of tool results + attachments + multiple rounds of conversation⬇① Budget trimming
 → trims oversized tool output⬇② Snip
 → locally trims low-value content⬇③ Microcompact
-→ micro-compresses by tool\_use structure⬇④ Context Collapse
+→ micro-compresses by tool_use structure⬇④ Context Collapse
 → collapses the view, preserving structure as much as possibleStill within threshold → keep granular detail
 Still over → continue ⬇⬇⑤ Autocompact
-→ global summary compression + compact\_boundary⬇⑥ Reactive
+→ global summary compression + compact_boundary⬇⑥ Reactive
 → fallback recovery when the API returns 413/media
 
 ***

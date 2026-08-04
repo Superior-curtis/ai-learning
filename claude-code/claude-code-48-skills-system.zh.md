@@ -25,7 +25,7 @@
 2. **發現** (`utils/messages.ts`)——只暴露 Skill 名稱、簡介、適用場景；模型知道有哪些技能可用
 3. **執行** (`SkillTool.ts`)——模型決定呼叫某個 Skill 後系統才展開完整內容
 
-載入loadSkillsDir.ts → parseSkillFrontmatterFields → createSkillCommand發現skill\_discovery / discoveredSkillNames / invoked\_skills 三段系統提示執行SkillTool：查表 → 校驗 → 權限 → 展開 → inline / fork
+載入loadSkillsDir.ts → parseSkillFrontmatterFields → createSkillCommand發現skill_discovery / discoveredSkillNames / invoked_skills 三段系統提示執行SkillTool：查表 → 校驗 → 權限 → 展開 → inline / fork
 
 兩個好處：節省上下文；讓模型只在真正需要時才進入某個 Skill 的詳細流程。本質是**先暴露能力概覽，再按需展開細節**。
 

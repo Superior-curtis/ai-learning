@@ -38,7 +38,7 @@ URL 校驗 + 域名權限檢查
 
 🔄 重定向檢查跨域不自動跟隨
 ⏳ 15 分鐘快取LRU 快取避免重複抓取
-📏 URL 長度限制MAX\_URL\_LENGTH = 2000
+📏 URL 長度限制MAX_URL_LENGTH = 2000
 
 ***
 

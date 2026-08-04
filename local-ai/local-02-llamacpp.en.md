@@ -71,18 +71,18 @@ A 7B model at Q4 (~4.5 bits/weight) → roughly 4GB.
 
 | Level | Approx. bits/weight | Approx. size (7B model) | Use case |
 |-------|---------------------|--------------------------|----------|
-| Q4\_0 | ~4.1 | ~3.9GB | Smallest reasonable option, speed first |
-| Q4\_K\_M | ~4.8 | ~4.4GB | The recommended default, best quality/size balance |
-| Q5\_K\_M | ~5.5 | ~5.0GB | When you want better quality and have memory |
-| Q6\_K | ~6.6 | ~5.9GB | Close to original quality |
-| Q8\_0 | ~8.5 | ~7.6GB | Nearly lossless, needs more memory |
+| Q4_0 | ~4.1 | ~3.9GB | Smallest reasonable option, speed first |
+| Q4_K_M | ~4.8 | ~4.4GB | The recommended default, best quality/size balance |
+| Q5_K_M | ~5.5 | ~5.0GB | When you want better quality and have memory |
+| Q6_K | ~6.6 | ~5.9GB | Close to original quality |
+| Q8_0 | ~8.5 | ~7.6GB | Nearly lossless, needs more memory |
 | F16 | 16 | ~14GB | Raw weights, for training/fine-tuning |
 
 ### How to choose
 
-* Limited or unsure about memory → Q4\_K\_M
-* Quality first, enough memory → Q5\_K\_M or Q6\_K
-* Just testing the tooling → Q4\_0
+* Limited or unsure about memory → Q4_K_M
+* Quality first, enough memory → Q5_K_M or Q6_K
+* Just testing the tooling → Q4_0
 
 ***
 
@@ -115,7 +115,7 @@ This gives you `llama-cli` directly, no compilation needed.
 
 ## Downloading a GGUF model
 
-GGUF files usually live on Hugging Face. Here's Llama-2-7B-Chat in Q4\_K\_M as an example:
+GGUF files usually live on Hugging Face. Here's Llama-2-7B-Chat in Q4_K_M as an example:
 
 ```bash
 mkdir -p models

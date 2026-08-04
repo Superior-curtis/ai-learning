@@ -25,7 +25,7 @@
 ⬇
 讀取並解析 notebook JSON
 ⬇
-按 cell\_id 做 replace/insert/delete
+按 cell_id 做 replace/insert/delete
 ⬇
 保持 notebook 結構 → 寫回
 

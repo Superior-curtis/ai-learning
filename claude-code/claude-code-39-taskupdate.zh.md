@@ -11,4 +11,4 @@ TaskUpdateTool 負責修改任務物件本身。如果說 TaskCreateTool 是建�
 
 ### 一句話總結
 
-> TaskUpdateTool 是 Claude Code 正式任務系統裡最像\*\*「狀態機推進器」\*\*的工具——不只是改狀態，而是整個任務物件的維護入口。
+> TaskUpdateTool 是 Claude Code 正式任務系統裡最像**「狀態機推進器」**的工具——不只是改狀態，而是整個任務物件的維護入口。

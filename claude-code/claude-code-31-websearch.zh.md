@@ -14,10 +14,10 @@ WebSearchTool 負責讓 Claude Code 查詢網際網路的最新資訊。它和 W
 ### 輸入與執行
 
 📥 輸入query: string
-allowed\_domains?: string\[]
-blocked\_domains?: string\[]⚙️ 執行方式包裝型工具：
+allowed_domains?: string[]
+blocked_domains?: string[]⚙️ 執行方式包裝型工具：
 外層標準工具 → 內層二次模型呼叫
-extraToolSchemas 注入 web\_search
+extraToolSchemas 注入 web_search
 
 ***
 

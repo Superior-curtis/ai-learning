@@ -11,4 +11,4 @@ TaskListTool 讓模型重新看到「現在有哪些任務、誰卡住了誰、�
 
 ### 一句話總結
 
-> TaskListTool 讓 Claude Code 在複雜任務流裡具備了\*\*「抬頭看全局」\*\*的能力。
+> TaskListTool 讓 Claude Code 在複雜任務流裡具備了**「抬頭看全局」**的能力。

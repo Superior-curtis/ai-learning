@@ -27,7 +27,7 @@ FileEditTool 負責對已有檔案做定點修改。在 Claude Code 裡，它的
 ⬇
 確認檔案已讀且未過期
 ⬇
-比對 old\_string / new\_string → 產生 patch
+比對 old_string / new_string → 產生 patch
 ⬇
 寫回 → 更新 diff / 診斷資訊
 

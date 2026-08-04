@@ -21,11 +21,11 @@ It gathers git state, CLAUDE.md, the system prompt, and conversation history int
 
 #### Call the model
 
-The assembled context is sent to the model. The model emits one of two things: plain text, or a "I want to use a tool" request (tool\_use).
+The assembled context is sent to the model. The model emits one of two things: plain text, or a "I want to use a tool" request (tool_use).
 
 #### Execute the tool
 
-If it is a tool\_use, it really executes — reading files, running tests, searching. The tool result (tool\_result) is sent back into context.
+If it is a tool_use, it really executes — reading files, running tests, searching. The tool result (tool_result) is sent back into context.
 
 #### Loop until done
 
@@ -35,7 +35,7 @@ Back to "call the model". Repeat until the task finishes or the limit is reached
 
 The model is great at "understanding" and "planning", but tools are what actually act. That is why the tool system takes up so much of Claude Code's architecture.
 
-> Keep this mental model: the model thinks, the tools act. Every tool\_use is a "I want to do this" request; Claude Code executes it and feeds the result back.
+> Keep this mental model: the model thinks, the tools act. Every tool_use is a "I want to do this" request; Claude Code executes it and feeds the result back.
 
 ## A live loop demo
 
@@ -107,7 +107,7 @@ The agent loop trades "a bit more latency" for "every action gets verified". For
 
 ## Check your understanding
 
-#### Q: What does a tool\_use message represent?
+#### Q: What does a tool_use message represent?
 
 * The model has finished and is waiting for confirmation
 
@@ -117,7 +117,7 @@ The agent loop trades "a bit more latency" for "every action gets verified". For
 
 * A tool quietly running in the background
 
-> 💡 tool\_use is an action request from the model, not a result. The actual execution happens next: Claude Code calls the tool, gets a tool\_result, and feeds it back into context.
+> 💡 tool_use is an action request from the model, not a result. The actual execution happens next: Claude Code calls the tool, gets a tool_result, and feeds it back into context.
 
 ## Further reading
 

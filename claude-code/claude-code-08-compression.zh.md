@@ -110,10 +110,10 @@ Microcompact 圍繞**工具呼叫記錄**做細粒度壓縮。和 snip 的區別
 → 大量工具結果 + 附件 + 多輪對話⬇① 預算裁剪
 → 裁掉過大的工具輸出⬇② Snip
 → 局部裁剪低價值內容⬇③ Microcompact
-→ 按 tool\_use 結構微壓縮⬇④ Context Collapse
+→ 按 tool_use 結構微壓縮⬇④ Context Collapse
 → 折疊視圖，盡量保留結構仍在閾值內 → 保留細粒度
 仍超標 → 繼續 ⬇⬇⑤ Autocompact
-→ 全局摘要壓縮 + compact\_boundary⬇⑥ Reactive
+→ 全局摘要壓縮 + compact_boundary⬇⑥ Reactive
 → API 報 413/media 時兜底恢復
 
 ***

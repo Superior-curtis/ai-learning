@@ -27,7 +27,7 @@ Path and permission check
 ⬇
 Confirm the file has been read and is not stale
 ⬇
-Compare old\_string / new\_string → generate patch
+Compare old_string / new_string → generate patch
 ⬇
 Write back → update diff / diagnostics
 

@@ -25,4 +25,4 @@ TaskCreateTool 不是簡單往列表裡插入一行文字，而是把一個工�
 
 ### 一句話總結
 
-> TaskCreateTool 代表的是 Claude Code 從「todo 文字」到\*\*「正式任務物件」\*\*的那一步——有 id、狀態、依賴、hooks 的執行時物件系統。
+> TaskCreateTool 代表的是 Claude Code 從「todo 文字」到**「正式任務物件」**的那一步——有 id、狀態、依賴、hooks 的執行時物件系統。

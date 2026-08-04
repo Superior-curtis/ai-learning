@@ -25,7 +25,7 @@ The model does **not** get the full body of every Skill in each turn. The real f
 2. **Discover** (`utils/messages.ts`) — only expose the Skill's name, brief description, and applicable scenarios; the model knows which skills are available
 3. **Execute** (`SkillTool.ts`) — the system expands the full content only after the model decides to invoke a Skill
 
-LoadloadSkillsDir.ts → parseSkillFrontmatterFields → createSkillCommandDiscoverskill\_discovery / discoveredSkillNames / invoked\_skills — the three-part system promptExecuteSkillTool: lookup → validate → permission → expand → inline / fork
+LoadloadSkillsDir.ts → parseSkillFrontmatterFields → createSkillCommandDiscoverskill_discovery / discoveredSkillNames / invoked_skills — the three-part system promptExecuteSkillTool: lookup → validate → permission → expand → inline / fork
 
 Two benefits: it saves context; and it lets the model enter a Skill's detailed flow only when it actually needs to. In essence, it's **exposing an overview of capabilities first, then expanding the details on demand**.
 

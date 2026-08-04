@@ -55,7 +55,7 @@ Quantization loss is usually measured with perplexity or downstream task scores.
 
 * **Post-Training Quantization (PTQ):** convert after training; most common. `bitsandbytes`'s `load_in_4bit` does it in one line.
 * **Quantization-Aware Training (QAT):** folds quantization error into training, better quality, but requires retraining and is expensive.
-* **GGUF k-quants:** the quantization formats of the llama.cpp ecosystem (Q4\_K\_M, Q5\_K\_S, Q8\_0, …). The `_K` means "quantize important tensors in finer groups" — k-quant is what made INT4 quality respectable in recent years.
+* **GGUF k-quants:** the quantization formats of the llama.cpp ecosystem (Q4_K_M, Q5_K_S, Q8_0, …). The `_K` means "quantize important tensors in finer groups" — k-quant is what made INT4 quality respectable in recent years.
 
 ```python
 # bitsandbytes example: convert on load, straight to 4-bit
@@ -94,11 +94,11 @@ There is no free lunch, but this lunch is almost free. Common options for Llama 
 
 | Quantization | Weights | Quality | Best for |
 |--------------|---------|---------|----------|
-| Q8\_0 (INT8) | ~8.5 GB | near original | enough memory, want quality |
-| Q5\_K\_M | ~5.5 GB | very good | a great all-rounder for local use |
-| Q4\_K\_M | ~4.9 GB | good | the best default when memory is tight |
-| Q3\_K\_M | ~4 GB | acceptable | last resort, big models on tight budgets |
-| Q2\_K | ~3.1 GB | clearly degraded | almost never recommended |
+| Q8_0 (INT8) | ~8.5 GB | near original | enough memory, want quality |
+| Q5_K_M | ~5.5 GB | very good | a great all-rounder for local use |
+| Q4_K_M | ~4.9 GB | good | the best default when memory is tight |
+| Q3_K_M | ~4 GB | acceptable | last resort, big models on tight budgets |
+| Q2_K | ~3.1 GB | clearly degraded | almost never recommended |
 
 A decision tree for picking:
 
@@ -112,7 +112,7 @@ A decision tree for picking:
 | Concept | In one sentence |
 |---------|-----------------|
 | Precision | FP32 / FP16 / BF16 / INT8 / INT4 — different bits and ranges |
-| Memory | params × bytes\_per\_param; a 7B goes from ~14 GB at FP16 to ~3.5 GB at INT4 |
+| Memory | params × bytes_per_param; a 7B goes from ~14 GB at FP16 to ~3.5 GB at INT4 |
 | Why it works | weight redundancy + robustness to noise + per-channel scaling |
 | GGUF / llama.cpp | the file format and inference engine for packaged quantized models; the mainstream local setup |
 | Tradeoff | fewer bits = smaller and faster but slightly worse quality; big models tolerate it better |
