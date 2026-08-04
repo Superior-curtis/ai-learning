@@ -1,0 +1,115 @@
+# AI Learning Hub
+
+> AI moves fast. This is a **bilingual (中文 / English) learning library** covering Claude Code, AI agents, LLM internals, local AI, and AI security.
+
+## What's inside
+
+## 01 · Claude Code / Claude Code  (51 篇)
+
+> Anthropic's terminal AI agent: architecture, tools, and practice.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [從這裡開始：Claude Code 學習路徑](claude-code/claude-code-00-start-here.zh.md) | [Start Here: The Claude Code Learning Path](claude-code/claude-code-00-start-here.en.md) | 2026-07-28 |
+| 2 | [Claude Code 快速上手](claude-code/claude-code-01-quickstart.zh.md) | [Claude Code Quickstart](claude-code/claude-code-01-quickstart.en.md) | 2026-07-27 |
+| 3 | [CLAUDE.md：讓 Claude Code 真正理解你的專案](claude-code/claude-code-02-claudemd.zh.md) | [CLAUDE.md: Make Claude Code Truly Understand Your Project](claude-code/claude-code-02-claudemd.en.md) | 2026-07-27 |
+| 4 | [Claude Code 核心概念一覽](claude-code/claude-code-03-core-concepts.zh.md) | [Claude Code Core Concepts at a Glance](claude-code/claude-code-03-core-concepts.en.md) | 2026-07-27 |
+| 5 | [Claude Code 原始碼架構總覽](claude-code/claude-code-04-architecture.zh.md) | [Claude Code Source Architecture Overview](claude-code/claude-code-04-architecture.en.md) | 2026-07-27 |
+| 6 | [Tool 工具系統：Claude Code 的執行力來自工具，不只來自模型](claude-code/claude-code-05-tools.zh.md) | [The Tool System: Claude Code's Execution Power Comes from Tools, Not Just the Model](claude-code/claude-code-05-tools.en.md) | 2026-07-27 |
+| 7 | [Slash Commands 命令系統：使用者如何直接控制 Claude Code](claude-code/claude-code-06-commands.zh.md) | [Slash Commands: How Users Directly Control Claude Code](claude-code/claude-code-06-commands.en.md) | 2026-07-27 |
+| 8 | [上下文系統：Git、CLAUDE.md 與系統提示詞注入](claude-code/claude-code-07-context.zh.md) | [The Context System: Git, CLAUDE.md, and System Prompt Injection](claude-code/claude-code-07-context.en.md) | 2026-07-27 |
+| 9 | [上下文壓縮管理：Claude Code 的六層分級壓縮](claude-code/claude-code-08-compression.zh.md) | [Context Compression Management: Claude Code's Six-Tier Compression](claude-code/claude-code-08-compression.en.md) | 2026-07-27 |
+| 10 | [核心循環解析：QueryEngine 如何驅動一次任務](claude-code/claude-code-09-engine.zh.md) | [Inside the Core Loop: How QueryEngine Drives a Task](claude-code/claude-code-09-engine.en.md) | 2026-07-27 |
+| 11 | [Claude Code 的提示詞工程：六層分級提示系統](claude-code/claude-code-10-prompt.zh.md) | [Claude Code's Prompt Engineering: A Six-Tier Prompt System](claude-code/claude-code-10-prompt.en.md) | 2026-07-27 |
+| 12 | [檔案讀寫與編輯鏈路：Claude Code 的基本盤](claude-code/claude-code-11-files.zh.md) | [The File Read/Write and Edit Pipeline: Claude Code's Foundation](claude-code/claude-code-11-files.en.md) | 2026-07-27 |
+| 13 | [Bash 工具為什麼這麼關鍵：開發環境操作總線](claude-code/claude-code-12-bash.zh.md) | [Why the Bash Tool Matters: The Development Environment Operation Bus](claude-code/claude-code-12-bash.en.md) | 2026-07-27 |
+| 14 | [狀態管理解析：AppStateStore 裡到底保存了什麼？](claude-code/claude-code-13-state.zh.md) | [State Management Decoded: What Does AppStateStore Actually Hold?](claude-code/claude-code-13-state.en.md) | 2026-07-27 |
+| 15 | [權限與安全機制：為什麼 Claude Code 不會無腦亂跑](claude-code/claude-code-14-security.zh.md) | [Permissions and Security: Why Claude Code Doesn't Run Wild](claude-code/claude-code-14-security.en.md) | 2026-07-27 |
+| 16 | [Plan Mode 在架構裡的位置：不只是模式切換](claude-code/claude-code-15-planmode.zh.md) | [Plan Mode's Place in the Architecture: More Than a Mode Toggle](claude-code/claude-code-15-planmode.en.md) | 2026-07-27 |
+| 17 | [從原始碼看 Claude Code 的產品邊界與局限](claude-code/claude-code-16-boundaries.zh.md) | [Claude Code's Product Boundaries and Limitations, Seen from the Source Code](claude-code/claude-code-16-boundaries.en.md) | 2026-07-27 |
+| 18 | [MCP 與 LSP 整合：把外部世界接進 Claude Code](claude-code/claude-code-17-mcp.zh.md) | [MCP and LSP Integration: Wiring the Outside World Into Claude Code](claude-code/claude-code-17-mcp.en.md) | 2026-07-27 |
+| 19 | [插件、Skills 與 Agent：Claude Code 如何走向平台化](claude-code/claude-code-18-platform.zh.md) | [Plugins, Skills, and Agents: How Claude Code Is Moving Toward a Platform](claude-code/claude-code-18-platform.en.md) | 2026-07-27 |
+| 20 | [Claude Code 的 Skills 系統：不只是 Prompt](claude-code/claude-code-19-skills.zh.md) | [Claude Code's Skills System: More Than Just a Prompt](claude-code/claude-code-19-skills.en.md) | 2026-07-27 |
+| 21 | [多 Agent 與子任務機制：從單執行緒到協作系統](claude-code/claude-code-20-multiagent.zh.md) | [Multi-Agent and Sub-Task Mechanisms: From a Single Thread to a Collaborative System](claude-code/claude-code-20-multiagent.en.md) | 2026-07-27 |
+| 22 | [遠端會話與橋接能力：終端在本地，不代表執行一定在本地](claude-code/claude-code-21-remote.zh.md) | [Remote Sessions and Bridge Capabilities: A Local Terminal Doesn't Mean Local Execution](claude-code/claude-code-21-remote.en.md) | 2026-07-27 |
+| 23 | [AgentTool：子 Agent 調度器](claude-code/claude-code-22-agenttool.zh.md) | [AgentTool: The Sub-Agent Dispatcher](claude-code/claude-code-22-agenttool.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 24 | [BashTool：Shell 執行器深入解析](claude-code/claude-code-23-bashtool.zh.md) | [BashTool: A Deep Dive into the Shell Executor](claude-code/claude-code-23-bashtool.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 25 | [FileReadTool：讀取檔案深入解析](claude-code/claude-code-24-fileread.zh.md) | [FileReadTool: A Deep Dive into Reading Files](claude-code/claude-code-24-fileread.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 26 | [FileEditTool：編輯檔案深入解析](claude-code/claude-code-25-fileedit.zh.md) | [FileEditTool: Editing Files in Depth](claude-code/claude-code-25-fileedit.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 27 | [FileWriteTool：寫入檔案深入解析](claude-code/claude-code-26-filewrite.zh.md) | [FileWriteTool: Writing Files in Depth](claude-code/claude-code-26-filewrite.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 28 | [GlobTool：查找檔案](claude-code/claude-code-27-globtool.zh.md) | [GlobTool: Finding Files](claude-code/claude-code-27-globtool.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 29 | [GrepTool：搜尋內容](claude-code/claude-code-28-greptool.zh.md) | [GrepTool: Searching Content](claude-code/claude-code-28-greptool.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 30 | [NotebookEditTool：編輯 Notebook](claude-code/claude-code-29-notebookedit.zh.md) | [NotebookEditTool: Editing Notebooks](claude-code/claude-code-29-notebookedit.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 31 | [WebFetchTool：抓取網頁](claude-code/claude-code-30-webfetch.zh.md) | [WebFetchTool: Fetching Web Pages](claude-code/claude-code-30-webfetch.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 32 | [WebSearchTool：聯網搜尋](claude-code/claude-code-31-websearch.zh.md) | [WebSearchTool: Web Search](claude-code/claude-code-31-websearch.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 33 | [TodoWriteTool：待辦清單](claude-code/claude-code-32-todowrite.zh.md) | [TodoWriteTool: Todo List](claude-code/claude-code-32-todowrite.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 34 | [AskUserQuestionTool：向使用者提問](claude-code/claude-code-33-askuser.zh.md) | [AskUserQuestionTool: Asking the User](claude-code/claude-code-33-askuser.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 35 | [SkillTool：執行 Skills](claude-code/claude-code-34-skilltool.zh.md) | [SkillTool: Running Skills](claude-code/claude-code-34-skilltool.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 36 | [EnterPlanModeTool：進入 Plan Mode](claude-code/claude-code-35-enterplan.zh.md) | [EnterPlanModeTool: Entering Plan Mode](claude-code/claude-code-35-enterplan.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 37 | [ExitPlanModeTool：退出 Plan Mode](claude-code/claude-code-36-exitplan.zh.md) | [ExitPlanModeTool: Exiting Plan Mode](claude-code/claude-code-36-exitplan.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 38 | [TaskCreateTool：建立任務](claude-code/claude-code-37-taskcreate.zh.md) | [TaskCreateTool: Creating Tasks](claude-code/claude-code-37-taskcreate.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 39 | [TaskGetTool：讀取任務](claude-code/claude-code-38-taskget.zh.md) | [TaskGetTool: Reading Tasks](claude-code/claude-code-38-taskget.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 40 | [TaskUpdateTool：更新任務](claude-code/claude-code-39-taskupdate.zh.md) | [TaskUpdateTool: Updating Tasks](claude-code/claude-code-39-taskupdate.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 41 | [TaskListTool：列出任務](claude-code/claude-code-40-tasklist.zh.md) | [TaskListTool: Listing Tasks](claude-code/claude-code-40-tasklist.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 42 | [TaskStopTool：停止任務](claude-code/claude-code-41-taskstop.zh.md) | [TaskStopTool: Stopping Tasks](claude-code/claude-code-41-taskstop.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 43 | [TaskOutputTool：讀取任務輸出](claude-code/claude-code-42-taskoutput.zh.md) | [TaskOutputTool: Reading Task Output](claude-code/claude-code-42-taskoutput.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 44 | [SendMessageTool：Agent 通訊](claude-code/claude-code-43-sendmessage.zh.md) | [SendMessageTool: Agent Communication](claude-code/claude-code-43-sendmessage.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 45 | [ListMcpResourcesTool：列出 MCP 資源](claude-code/claude-code-44-listmcp.zh.md) | [ListMcpResourcesTool: Listing MCP Resources](claude-code/claude-code-44-listmcp.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 46 | [ReadMcpResourceTool：讀取 MCP 資源](claude-code/claude-code-45-readmcp.zh.md) | [ReadMcpResourceTool: Reading MCP Resources](claude-code/claude-code-45-readmcp.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 47 | [LSPTool：語言服務接入](claude-code/claude-code-46-lsptool.zh.md) | [LSPTool: Language Service Integration](claude-code/claude-code-46-lsptool.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 48 | [自己做一個 Claude Code 需要哪些模組](claude-code/claude-code-47-buildyourown.zh.md) | [What Modules You Need to Build Your Own Claude Code](claude-code/claude-code-47-buildyourown.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 49 | [Claude Code 的 Skills 系統：不只是 Prompt](claude-code/claude-code-48-skills-system.zh.md) | [Claude Code's Skills System: More Than Just a Prompt](claude-code/claude-code-48-skills-system.en.md) | Mon Jul 27 2026 08:00:00 GMT+0800 (Taiwan Standard Time) |
+| 50 | [一次任務的生命週期：Claude Code 代理迴圈逐步拆解](claude-code/claude-code-49-agent-loop.zh.md) | [Life of a Task: The Claude Code Agent Loop, Step by Step](claude-code/claude-code-49-agent-loop.en.md) | 2026-07-28 |
+| 51 | [Claude Code 完全入門指南](claude-code/claude-code-guide.zh.md) | [Claude Code Complete Beginner's Guide](claude-code/claude-code-guide.en.md) | 2026-07-27 |
+
+## 02 · AI Agents / AI 代理  (4 篇)
+
+> LangGraph, CrewAI, sub-agents, and orchestration.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [什麼是 AI Agent？從定義到代理迴圈](agents/agents-01-what-is-agent.zh.md) | [What Is an AI Agent? From Definition to the Agent Loop](agents/agents-01-what-is-agent.en.md) | 2026-08-01 |
+| 2 | [Agent 編排：單一代理 vs 多代理](agents/agents-02-orchestration.zh.md) | [Agent Orchestration: Single vs Multi-Agent](agents/agents-02-orchestration.en.md) | 2026-08-01 |
+| 3 | [MCP 與 Agent 生態系：工具標準化的關鍵](agents/agents-03-mcp.zh.md) | [MCP and the Agent Ecosystem: The Key to Standardizing Tools](agents/agents-03-mcp.en.md) | 2026-08-01 |
+| 4 | [動手打造你的第一個 Agent：逐步教學](agents/agents-04-first-agent.zh.md) | [Build Your First Agent, Step by Step](agents/agents-04-first-agent.en.md) | 2026-08-01 |
+
+## 03 · LLM Internals / LLM 原理  (4 篇)
+
+> Attention, RAG, embeddings, quantization — how models work.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [注意力機制：模型如何決定「誰該聽誰」](llm-internals/llm-01-attention.zh.md) | [Attention: How Models Decide Who Listens to Whom](llm-internals/llm-01-attention.en.md) | 2026-08-01 |
+| 2 | [嵌入與向量搜尋：把語意放進座標空間](llm-internals/llm-02-embeddings.zh.md) | [Embeddings and Vector Search: Putting Semantics into Coordinates](llm-internals/llm-02-embeddings.en.md) | 2026-08-01 |
+| 3 | [RAG 從第一性原理講起：檢索增強生成](llm-internals/llm-03-rag.zh.md) | [RAG from First Principles: Retrieval-Augmented Generation](llm-internals/llm-03-rag.en.md) | 2026-08-01 |
+| 4 | [量化：用更少的記憶體跑模型](llm-internals/llm-04-quantization.zh.md) | [Quantization: Running Models on Less Memory](llm-internals/llm-04-quantization.en.md) | 2026-08-01 |
+
+## 04 · Local AI / 本地 AI  (4 篇)
+
+> Ollama, llama.cpp, self-hosted models, offline inference.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [用 Ollama 跑起你的第一個本地模型](local-ai/local-01-ollama.zh.md) | [Run Your First Local Model with Ollama](local-ai/local-01-ollama.en.md) | 2026-08-01 |
+| 2 | [llama.cpp 與 GGUF 解析](local-ai/local-02-llamacpp.zh.md) | [llama.cpp and GGUF, Explained](local-ai/local-02-llamacpp.en.md) | 2026-08-01 |
+| 3 | [Apple Silicon 與 NVIDIA：在你的硬體上跑模型](local-ai/local-03-mac-vs-gpu.zh.md) | [Apple Silicon vs NVIDIA: Running Models on Your Hardware](local-ai/local-03-mac-vs-gpu.en.md) | 2026-08-01 |
+| 4 | [打造一套完全私密的本地 RAG 流程](local-ai/local-04-local-rag.zh.md) | [Build a Private Local RAG Stack](local-ai/local-04-local-rag.en.md) | 2026-08-01 |
+
+## 05 · AI Security / AI 安全  (4 篇)
+
+> Prompt injection, jailbreaks, evals, and the model attack surface.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [提示注入（Prompt Injection）深入解析](ai-security/security-01-prompt-injection.zh.md) | [Prompt Injection, Explained](ai-security/security-01-prompt-injection.en.md) | 2026-08-01 |
+| 2 | [越獄（Jailbreak）與它是如何運作的](ai-security/security-02-jailbreaks.zh.md) | [Jailbreaks and How They Work](ai-security/security-02-jailbreaks.en.md) | 2026-08-01 |
+| 3 | [LLM 應用程式的紅隊與評測（Evals）](ai-security/security-03-evals.zh.md) | [Red-Teaming and Evals for LLM Apps](ai-security/security-03-evals.en.md) | 2026-08-01 |
+| 4 | [強化你的 LLM 生產應用程式](ai-security/security-04-secure-apps.zh.md) | [Hardening a Production LLM Application](ai-security/security-04-secure-apps.en.md) | 2026-08-01 |
+
+## 📬 Contribute
+
+Articles are in Markdown (converted from the interactive MDX originals on the website). Feel free to open issues or PRs for corrections or new topics.
+
+---
+
+_Built with ❤️ — bilingual deep dives on AI, from the [myself](https://blog-916bd.web.app) website._
