@@ -7,10 +7,10 @@
 | Part | Title | 篇數 |
 |---|---|---|
 | **00** | **Foundations** / 導論 | 1 |
-| **01** | **How Models Work** / 模型原理 | 16 |
-| **02** | **Building Applications** / 建構應用 | 4 |
+| **01** | **How Models Work** / 模型原理 | 20 |
+| **02** | **Building Applications** / 建構應用 | 15 |
 | **03** | **Tools & Platforms** / 工具與平台 | 55 |
-| **04** | **Industry & Business** / 產業與商業 | 0 |
+| **04** | **Industry & Business** / 產業與商業 | 3 |
 | **05** | **Safety & Society** / 安全與社會 | 4 |
 
 ## 00 · Foundations / 導論 (1 篇)
@@ -25,7 +25,7 @@
 |---|---|---|---|
 | 1 | [什麼是 AI：一份白話地圖](intro/intro-01-what-is-ai.zh.md) | [What Is AI: A Plain-English Map](intro/intro-01-what-is-ai.en.md) | 2026-08-04 |
 
-## 01 · How Models Work / 模型原理 (16 篇)
+## 01 · How Models Work / 模型原理 (20 篇)
 
 > From next-token prediction to training and model families.
 
@@ -64,7 +64,7 @@
 | 4 | [訓練資料：模型吃了什麼](training/train-04-corpus.zh.md) | [The Training Corpus: What the Model Ate](training/train-04-corpus.en.md) | 2026-08-04 |
 | 5 | [規模法則：為什麼越大越不同](training/train-05-scaling-laws.zh.md) | [Scaling Laws: Why Bigger Is Different, Not Just Bigger](training/train-05-scaling-laws.en.md) | 2026-08-04 |
 
-### Model Families / 模型家族  (2 篇)
+### Model Families / 模型家族  (6 篇)
 
 > GPT, Claude, Llama… open vs closed, multimodal, reasoning.
 
@@ -72,10 +72,46 @@
 |---|---|---|---|
 | 1 | [開放 vs 封閉模型](model-families/models-01-open-vs-closed.zh.md) | [Open vs. Closed Models](model-families/models-01-open-vs-closed.en.md) | 2026-08-04 |
 | 2 | [主要模型家族導覽：GPT、Claude、Llama…](model-families/models-02-families-tour.zh.md) | [A Tour of the Major Model Families](model-families/models-02-families-tour.en.md) | 2026-08-04 |
+| 3 | [多模態：當模型張開了眼睛](model-families/models-03-multimodal.zh.md) | [Multimodal Models: When Models Open Their Eyes](model-families/models-03-multimodal.en.md) | 2026-08-04 |
+| 4 | [推理模型：答案之前的沉思](model-families/models-04-reasoning.zh.md) | [Reasoning Models: The Pause Before the Answer](model-families/models-04-reasoning.en.md) | 2026-08-04 |
+| 5 | [蒸餾與小型模型：把大象裝進手機](model-families/models-05-small-models.zh.md) | [Distillation and Small Models: Fitting an Elephant into a Phone](model-families/models-05-small-models.en.md) | 2026-08-04 |
+| 6 | [評估與基準：怎麼量『模型多強』](model-families/models-06-evaluation.zh.md) | [Evaluation and Benchmarks: Measuring How Strong a Model Is](model-families/models-06-evaluation.en.md) | 2026-08-04 |
 
-## 02 · Building Applications / 建構應用 (4 篇)
+## 02 · Building Applications / 建構應用 (15 篇)
 
 > Prompting, RAG, fine-tuning, agents, and MCP.
+
+### Prompting / 提示工程  (4 篇)
+
+> Practical techniques for talking to models.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [提示詞的基礎：把話講清楚](prompting/prompt-01-basics.zh.md) | [Prompting Basics: Say What You Mean](prompting/prompt-01-basics.en.md) | 2026-08-04 |
+| 2 | [角色、例子與輸出格式：把結構交給模型](prompting/prompt-02-structure.zh.md) | [Roles, Examples, and Output Formats: Structuring the Prompt](prompting/prompt-02-structure.en.md) | 2026-08-04 |
+| 3 | [鏈式思考：讓模型一步一步想](prompting/prompt-03-chain-of-thought.zh.md) | [Chain-of-Thought: Reason Step by Step](prompting/prompt-03-chain-of-thought.en.md) | 2026-08-04 |
+| 4 | [系統提示與強韌性：讓提示經得起考驗](prompting/prompt-04-robustness.zh.md) | [System Prompts and Robustness: Prompts That Hold Up](prompting/prompt-04-robustness.en.md) | 2026-08-04 |
+
+### RAG / RAG 檢索  (4 篇)
+
+> Retrieval, chunking, hybrid search, reranking.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [為什麼要 RAG：別讓模型靠記憶瞎掰](rag/rag-01-what-is-rag.zh.md) | [Why RAG: Stop Making the Model Answer from Memory](rag/rag-01-what-is-rag.en.md) | 2026-08-04 |
+| 2 | [切塊與索引：把文件拆成能撿的單位](rag/rag-02-chunking.zh.md) | [Chunking & Indexing: Turning Documents into Grab-able Units](rag/rag-02-chunking.en.md) | 2026-08-04 |
+| 3 | [混合檢索與重排：向量不是唯一的排序標準](rag/rag-03-hybrid.zh.md) | [Hybrid Retrieval & Reranking: Vectors Are Not the Only Ranking Signal](rag/rag-03-hybrid.en.md) | 2026-08-04 |
+| 4 | [評估 RAG 系統：把「感覺還行」變成數字](rag/rag-04-evaluating.zh.md) | [Evaluating RAG: Turning 'Seems Fine' into Numbers](rag/rag-04-evaluating.en.md) | 2026-08-04 |
+
+### Fine-tuning / 微調實務  (3 篇)
+
+> When to fine-tune and how LoRA keeps it cheap.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [微調 vs RAG：怎麼選](fine-tuning/finetune-01-finetune-vs-rag.zh.md) | [Fine-tuning vs RAG: How to Choose](fine-tuning/finetune-01-finetune-vs-rag.en.md) | 2026-08-04 |
+| 2 | [LoRA 實務：把微調變便宜](fine-tuning/finetune-02-lora.zh.md) | [LoRA in Practice: Making Fine-tuning Cheap](fine-tuning/finetune-02-lora.en.md) | 2026-08-04 |
+| 3 | [資料準備與評估：微調的勝負手](fine-tuning/finetune-03-data-and-eval.zh.md) | [Data & Evaluation: What Decides a Fine-tune](fine-tuning/finetune-03-data-and-eval.en.md) | 2026-08-04 |
 
 ### AI Agents / AI 代理  (4 篇)
 
@@ -161,9 +197,19 @@
 | 3 | [Apple Silicon 與 NVIDIA：在你的硬體上跑模型](local-ai/local-03-mac-vs-gpu.zh.md) | [Apple Silicon vs NVIDIA: Running Models on Your Hardware](local-ai/local-03-mac-vs-gpu.en.md) | 2026-08-01 |
 | 4 | [打造一套完全私密的本地 RAG 流程](local-ai/local-04-local-rag.zh.md) | [Build a Private Local RAG Stack](local-ai/local-04-local-rag.en.md) | 2026-08-01 |
 
-## 04 · Industry & Business / 產業與商業 (0 篇)
+## 04 · Industry & Business / 產業與商業 (3 篇)
 
 > Landscape, economics, startups, and AI & work.
+
+### Industry / 產業地圖  (3 篇)
+
+> The AI value chain, players, and business models.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [AI 產業價值鏈](industry/industry-01-value-chain.zh.md) | [The AI Industry Value Chain](industry/industry-01-value-chain.en.md) | 2026-08-04 |
+| 2 | [主要玩家地圖](industry/industry-02-players.zh.md) | [The Player Map](industry/industry-02-players.en.md) | 2026-08-04 |
+| 3 | [商業模式](industry/industry-03-business-models.zh.md) | [Business Models](industry/industry-03-business-models.en.md) | 2026-08-04 |
 
 ## 05 · Safety & Society / 安全與社會 (4 篇)
 
