@@ -7,7 +7,7 @@
 | Part | Title | 篇數 |
 |---|---|---|
 | **00** | **Foundations** / 導論 | 1 |
-| **01** | **How Models Work** / 模型原理 | 9 |
+| **01** | **How Models Work** / 模型原理 | 15 |
 | **02** | **Building Applications** / 建構應用 | 4 |
 | **03** | **Tools & Platforms** / 工具與平台 | 55 |
 | **04** | **Industry & Business** / 產業與商業 | 0 |
@@ -25,7 +25,7 @@
 |---|---|---|---|
 | 1 | [什麼是 AI：一份白話地圖](intro/intro-01-what-is-ai.zh.md) | [What Is AI: A Plain-English Map](intro/intro-01-what-is-ai.en.md) | 2026-08-04 |
 
-## 01 · How Models Work / 模型原理 (9 篇)
+## 01 · How Models Work / 模型原理 (15 篇)
 
 > From next-token prediction to training and model families.
 
@@ -51,6 +51,26 @@
 | 2 | [嵌入與向量搜尋：把語意放進座標空間](llm-internals/llm-02-embeddings.zh.md) | [Embeddings and Vector Search: Putting Semantics into Coordinates](llm-internals/llm-02-embeddings.en.md) | 2026-08-01 |
 | 3 | [RAG 從第一性原理講起：檢索增強生成](llm-internals/llm-03-rag.zh.md) | [RAG from First Principles: Retrieval-Augmented Generation](llm-internals/llm-03-rag.en.md) | 2026-08-01 |
 | 4 | [量化：用更少的記憶體跑模型](llm-internals/llm-04-quantization.zh.md) | [Quantization: Running Models on Less Memory](llm-internals/llm-04-quantization.en.md) | 2026-08-01 |
+
+### Training / 模型訓練  (5 篇)
+
+> Pre-training, fine-tuning, RLHF — how models are taught.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [預訓練：讀完整個網際網路](training/train-01-pretraining.zh.md) | [Pre-training: Reading the Entire Internet](training/train-01-pretraining.en.md) | 2026-08-04 |
+| 2 | [微調：教它一門專長](training/train-02-finetuning.zh.md) | [Fine-tuning: Teaching It a Specialty](training/train-02-finetuning.en.md) | 2026-08-04 |
+| 3 | [RLHF：讓模型符合人類偏好](training/train-03-rlhf.zh.md) | [RLHF: Making Models Match Human Preferences](training/train-03-rlhf.en.md) | 2026-08-04 |
+| 4 | [訓練資料：模型吃了什麼](training/train-04-corpus.zh.md) | [The Training Corpus: What the Model Ate](training/train-04-corpus.en.md) | 2026-08-04 |
+| 5 | [規模法則：為什麼越大越不同](training/train-05-scaling-laws.zh.md) | [Scaling Laws: Why Bigger Is Different, Not Just Bigger](training/train-05-scaling-laws.en.md) | 2026-08-04 |
+
+### Model Families / 模型家族  (1 篇)
+
+> GPT, Claude, Llama… open vs closed, multimodal, reasoning.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [開放 vs 封閉模型](model-families/models-01-open-vs-closed.zh.md) | [Open vs. Closed Models](model-families/models-01-open-vs-closed.en.md) | 2026-08-04 |
 
 ## 02 · Building Applications / 建構應用 (4 篇)
 
