@@ -7,7 +7,7 @@
 | Part | Title | 篇數 |
 |---|---|---|
 | **00** | **Foundations** / 導論 | 1 |
-| **01** | **How Models Work** / 模型原理 | 15 |
+| **01** | **How Models Work** / 模型原理 | 16 |
 | **02** | **Building Applications** / 建構應用 | 4 |
 | **03** | **Tools & Platforms** / 工具與平台 | 55 |
 | **04** | **Industry & Business** / 產業與商業 | 0 |
@@ -25,7 +25,7 @@
 |---|---|---|---|
 | 1 | [什麼是 AI：一份白話地圖](intro/intro-01-what-is-ai.zh.md) | [What Is AI: A Plain-English Map](intro/intro-01-what-is-ai.en.md) | 2026-08-04 |
 
-## 01 · How Models Work / 模型原理 (15 篇)
+## 01 · How Models Work / 模型原理 (16 篇)
 
 > From next-token prediction to training and model families.
 
@@ -64,13 +64,14 @@
 | 4 | [訓練資料：模型吃了什麼](training/train-04-corpus.zh.md) | [The Training Corpus: What the Model Ate](training/train-04-corpus.en.md) | 2026-08-04 |
 | 5 | [規模法則：為什麼越大越不同](training/train-05-scaling-laws.zh.md) | [Scaling Laws: Why Bigger Is Different, Not Just Bigger](training/train-05-scaling-laws.en.md) | 2026-08-04 |
 
-### Model Families / 模型家族  (1 篇)
+### Model Families / 模型家族  (2 篇)
 
 > GPT, Claude, Llama… open vs closed, multimodal, reasoning.
 
 | # | 文章 (中文) | English | 日期 |
 |---|---|---|---|
 | 1 | [開放 vs 封閉模型](model-families/models-01-open-vs-closed.zh.md) | [Open vs. Closed Models](model-families/models-01-open-vs-closed.en.md) | 2026-08-04 |
+| 2 | [主要模型家族導覽：GPT、Claude、Llama…](model-families/models-02-families-tour.zh.md) | [A Tour of the Major Model Families](model-families/models-02-families-tour.en.md) | 2026-08-04 |
 
 ## 02 · Building Applications / 建構應用 (4 篇)
 
