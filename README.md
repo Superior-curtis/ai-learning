@@ -6,24 +6,28 @@
 
 | Part | Title | 篇數 |
 |---|---|---|
-| **00** | **Foundations** / 導論 | 1 |
+| **00** | **Foundations** / 導論 | 5 |
 | **01** | **How Models Work** / 模型原理 | 20 |
-| **02** | **Building Applications** / 建構應用 | 15 |
-| **03** | **Tools & Platforms** / 工具與平台 | 55 |
-| **04** | **Industry & Business** / 產業與商業 | 3 |
-| **05** | **Safety & Society** / 安全與社會 | 4 |
+| **02** | **Building Applications** / 建構應用 | 22 |
+| **03** | **Tools & Platforms** / 工具與平台 | 61 |
+| **04** | **Industry & Business** / 產業與商業 | 12 |
+| **05** | **Safety & Society** / 安全與社會 | 10 |
 
-## 00 · Foundations / 導論 (1 篇)
+## 00 · Foundations / 導論 (5 篇)
 
 > What AI is, where it came from, why now.
 
-### AI Foundations / AI 導論  (1 篇)
+### AI Foundations / AI 導論  (5 篇)
 
 > From zero: what AI is, where it came from, why now.
 
 | # | 文章 (中文) | English | 日期 |
 |---|---|---|---|
 | 1 | [什麼是 AI：一份白話地圖](intro/intro-01-what-is-ai.zh.md) | [What Is AI: A Plain-English Map](intro/intro-01-what-is-ai.en.md) | 2026-08-04 |
+| 2 | [白話 AI 名詞表：聽懂大家在聊什麼](intro/intro-02-glossary.zh.md) | [The Plain-English AI Glossary](intro/intro-02-glossary.en.md) | 2026-08-04 |
+| 3 | [AI 簡史：從 1950 到今天的過山車](intro/intro-03-history.zh.md) | [A Short History of AI: The Rollercoaster, 1950 → Now](intro/intro-03-history.en.md) | 2026-08-04 |
+| 4 | [為什麼是現在：2020 年代 AI 浪潮的真相](intro/intro-04-why-now.zh.md) | [Why Now: The Truth About the 2020s AI Wave](intro/intro-04-why-now.en.md) | 2026-08-04 |
+| 5 | [弱 AI vs AGI：專家到底在吵什麼](intro/intro-05-agi.zh.md) | [Narrow AI vs. AGI: What the Experts Are Actually Fighting About](intro/intro-05-agi.en.md) | 2026-08-04 |
 
 ## 01 · How Models Work / 模型原理 (20 篇)
 
@@ -77,7 +81,7 @@
 | 5 | [蒸餾與小型模型：把大象裝進手機](model-families/models-05-small-models.zh.md) | [Distillation and Small Models: Fitting an Elephant into a Phone](model-families/models-05-small-models.en.md) | 2026-08-04 |
 | 6 | [評估與基準：怎麼量『模型多強』](model-families/models-06-evaluation.zh.md) | [Evaluation and Benchmarks: Measuring How Strong a Model Is](model-families/models-06-evaluation.en.md) | 2026-08-04 |
 
-## 02 · Building Applications / 建構應用 (15 篇)
+## 02 · Building Applications / 建構應用 (22 篇)
 
 > Prompting, RAG, fine-tuning, agents, and MCP.
 
@@ -113,7 +117,7 @@
 | 2 | [LoRA 實務：把微調變便宜](fine-tuning/finetune-02-lora.zh.md) | [LoRA in Practice: Making Fine-tuning Cheap](fine-tuning/finetune-02-lora.en.md) | 2026-08-04 |
 | 3 | [資料準備與評估：微調的勝負手](fine-tuning/finetune-03-data-and-eval.zh.md) | [Data & Evaluation: What Decides a Fine-tune](fine-tuning/finetune-03-data-and-eval.en.md) | 2026-08-04 |
 
-### AI Agents / AI 代理  (4 篇)
+### AI Agents / AI 代理  (8 篇)
 
 > LangGraph, CrewAI, sub-agents, and orchestration.
 
@@ -123,8 +127,22 @@
 | 2 | [Agent 編排：單一代理 vs 多代理](agents/agents-02-orchestration.zh.md) | [Agent Orchestration: Single vs Multi-Agent](agents/agents-02-orchestration.en.md) | 2026-08-01 |
 | 3 | [MCP 與 Agent 生態系：工具標準化的關鍵](agents/agents-03-mcp.zh.md) | [MCP and the Agent Ecosystem: The Key to Standardizing Tools](agents/agents-03-mcp.en.md) | 2026-08-01 |
 | 4 | [動手打造你的第一個 Agent：逐步教學](agents/agents-04-first-agent.zh.md) | [Build Your First Agent, Step by Step](agents/agents-04-first-agent.en.md) | 2026-08-01 |
+| 5 | [工具與動作設計：Agent 如何對世界動手](agents/agents-05-tools-and-actions.zh.md) | [Tools & Actions: How Agents Act on the World](agents/agents-05-tools-and-actions.en.md) | 2026-08-04 |
+| 6 | [代理記憶：工作記憶與長期記憶](agents/agents-06-memory.zh.md) | [Agent Memory: Working Memory vs Long-Term Memory](agents/agents-06-memory.en.md) | 2026-08-04 |
+| 7 | [規劃與子代理：把任務拆開，讓工作平行](agents/agents-07-planning.zh.md) | [Planning & Sub-Agents: Decomposing Tasks and Working in Parallel](agents/agents-07-planning.en.md) | 2026-08-04 |
+| 8 | [代理可靠性與偵錯：讓 Agent 在出錯時站穩](agents/agents-08-reliability.zh.md) | [Agent Reliability & Debugging: Staying Upright When Things Go Wrong](agents/agents-08-reliability.en.md) | 2026-08-04 |
 
-## 03 · Tools & Platforms / 工具與平台 (55 篇)
+### MCP / MCP  (3 篇)
+
+> The Model Context Protocol: connecting models to tools and data.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [MCP 是什麼：AI 世界的 USB-C](mcp/mcp-01-what-is-mcp.zh.md) | [What Is MCP: The USB-C of AI](mcp/mcp-01-what-is-mcp.en.md) | 2026-08-04 |
+| 2 | [MCP 架構：Server、Client、工具與資源](mcp/mcp-02-architecture.zh.md) | [MCP Architecture: Server, Client, Tools, and Resources](mcp/mcp-02-architecture.en.md) | 2026-08-04 |
+| 3 | [寫一個自己的 MCP Server](mcp/mcp-03-build-your-own.zh.md) | [Build Your Own MCP Server](mcp/mcp-03-build-your-own.en.md) | 2026-08-04 |
+
+## 03 · Tools & Platforms / 工具與平台 (61 篇)
 
 > Claude Code, local AI, model providers, and vector DBs.
 
@@ -197,7 +215,27 @@
 | 3 | [Apple Silicon 與 NVIDIA：在你的硬體上跑模型](local-ai/local-03-mac-vs-gpu.zh.md) | [Apple Silicon vs NVIDIA: Running Models on Your Hardware](local-ai/local-03-mac-vs-gpu.en.md) | 2026-08-01 |
 | 4 | [打造一套完全私密的本地 RAG 流程](local-ai/local-04-local-rag.zh.md) | [Build a Private Local RAG Stack](local-ai/local-04-local-rag.en.md) | 2026-08-01 |
 
-## 04 · Industry & Business / 產業與商業 (3 篇)
+### Providers / 模型供應商  (3 篇)
+
+> The API ecosystem: OpenAI, Anthropic, Google, self-hosted.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [供應商生態總覽：OpenAI、Anthropic、Google…還有更多](providers/providers-01-ecosystem.zh.md) | [The Provider Ecosystem: OpenAI, Anthropic, Google... and Beyond](providers/providers-01-ecosystem.en.md) | 2026-08-04 |
+| 2 | [Token 計價與比較：看懂帳單的每一塊](providers/providers-02-pricing.zh.md) | [Token Pricing and Comparison: Reading Your Bill](providers/providers-02-pricing.en.md) | 2026-08-04 |
+| 3 | [供應商選型決策：一套務實的判斷框架](providers/providers-03-choosing.zh.md) | [Choosing a Provider: A Practical Decision Framework](providers/providers-03-choosing.en.md) | 2026-08-04 |
+
+### Vector DBs / 向量資料庫  (3 篇)
+
+> pgvector, Qdrant, Milvus — choosing a vector store.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [向量資料庫是什麼：何時你才需要一座「語意索引」](vectordb/vectordb-01-what-is.zh.md) | [What Is a Vector Database: When Do You Need a Semantic Index](vectordb/vectordb-01-what-is.en.md) | 2026-08-04 |
+| 2 | [主流向量資料庫比較：從 PostgreSQL 到專用服務](vectordb/vectordb-02-comparison.zh.md) | [Vector Database Showdown: From PostgreSQL to Dedicated Services](vectordb/vectordb-02-comparison.en.md) | 2026-08-04 |
+| 3 | [與 RAG 搭配：把向量庫變成真正的回答機器](vectordb/vectordb-03-with-rag.zh.md) | [Vector DBs with RAG: Turning Your Store Into an Answering Machine](vectordb/vectordb-03-with-rag.en.md) | 2026-08-04 |
+
+## 04 · Industry & Business / 產業與商業 (12 篇)
 
 > Landscape, economics, startups, and AI & work.
 
@@ -211,11 +249,41 @@
 | 2 | [主要玩家地圖](industry/industry-02-players.zh.md) | [The Player Map](industry/industry-02-players.en.md) | 2026-08-04 |
 | 3 | [商業模式](industry/industry-03-business-models.zh.md) | [Business Models](industry/industry-03-business-models.en.md) | 2026-08-04 |
 
-## 05 · Safety & Society / 安全與社會 (4 篇)
+### Economics / 成本與經濟  (3 篇)
+
+> Inference cost, GPU economics, the compute divide.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [推理成本結構：一次「回答」的帳單](economics/econ-01-inference-cost.zh.md) | [The Real Cost of One Inference Call](economics/econ-01-inference-cost.en.md) | 2026-08-04 |
+| 2 | [GPU 經濟學：整場淘金熱的鏟子](economics/econ-02-gpu-economics.zh.md) | [GPU Economics: The Shovel of the Boom](economics/econ-02-gpu-economics.en.md) | 2026-08-04 |
+| 3 | [運算鴻溝：誰付得起前沿算力](economics/econ-03-compute-divide.zh.md) | [The Compute Divide: Who Can Afford Frontier Compute](economics/econ-03-compute-divide.en.md) | 2026-08-04 |
+
+### Startups / AI 新創  (3 篇)
+
+> How AI companies are built.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [如何打造一家 AI 公司](startups/startup-01-building.zh.md) | [How to Build an AI Company](startups/startup-01-building.en.md) | 2026-08-04 |
+| 2 | [融資與估值](startups/startup-02-funding.zh.md) | [Funding & Valuation](startups/startup-02-funding.en.md) | 2026-08-04 |
+| 3 | [AI 新創常見迷思](startups/startup-03-myths.zh.md) | [Common AI Startup Myths](startups/startup-03-myths.en.md) | 2026-08-04 |
+
+### AI & Work / AI 與工作  (3 篇)
+
+> How AI changes your work and learning path.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [AI 如何改變工作：重複的事交給機器，判斷留給人](ai-work/work-01-how-work-changes.zh.md) | [How AI Changes Work: Hand the Repetitive to the Machine, Keep the Judgment](ai-work/work-01-how-work-changes.en.md) | 2026-08-04 |
+| 2 | [給開發者的 AI 學習路徑：從「會問」到「會建」](ai-work/work-02-learning-path.zh.md) | [An AI Learning Path for Developers: From Asking to Building](ai-work/work-02-learning-path.en.md) | 2026-08-04 |
+| 3 | [給非開發者的 AI 指南：不寫程式，也能把 AI 用起來](ai-work/work-03-non-developers.zh.md) | [An AI Guide for Non-Developers: Use AI Without Writing Code](ai-work/work-03-non-developers.en.md) | 2026-08-04 |
+
+## 05 · Safety & Society / 安全與社會 (10 篇)
 
 > Security, alignment, policy, and ethics.
 
-### AI Security / AI 安全  (4 篇)
+### AI Security / AI 安全  (7 篇)
 
 > Prompt injection, jailbreaks, evals, and the model attack surface.
 
@@ -225,6 +293,19 @@
 | 2 | [越獄（Jailbreak）與它是如何運作的](ai-security/security-02-jailbreaks.zh.md) | [Jailbreaks and How They Work](ai-security/security-02-jailbreaks.en.md) | 2026-08-01 |
 | 3 | [LLM 應用程式的紅隊與評測（Evals）](ai-security/security-03-evals.zh.md) | [Red-Teaming and Evals for LLM Apps](ai-security/security-03-evals.en.md) | 2026-08-01 |
 | 4 | [強化你的 LLM 生產應用程式](ai-security/security-04-secure-apps.zh.md) | [Hardening a Production LLM Application](ai-security/security-04-secure-apps.en.md) | 2026-08-01 |
+| 5 | [紅隊實務：在壞人之前找到弱點](ai-security/security-05-red-teaming.zh.md) | [Red Teaming in Practice: Finding Weaknesses Before Attackers Do](ai-security/security-05-red-teaming.en.md) | 2026-08-04 |
+| 6 | [護欄與內容過濾：多層防禦的實作](ai-security/security-06-guardrails.zh.md) | [Guardrails and Content Filtering: Defense in Depth in Practice](ai-security/security-06-guardrails.en.md) | 2026-08-04 |
+| 7 | [多代理系統安全：當 AI 能動手做事](ai-security/security-07-agent-security.zh.md) | [Multi-Agent System Security: When AI Can Take Action](ai-security/security-07-agent-security.en.md) | 2026-08-04 |
+
+### Alignment / 對齊  (3 篇)
+
+> Making AI do what we mean — and why it is hard.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [對齊：讓 AI 做我們真正想做的事](alignment/align-01-what-is-alignment.zh.md) | [Alignment: Making AI Do What We Actually Mean](alignment/align-01-what-is-alignment.en.md) | 2026-08-04 |
+| 2 | [為什麼對齊這麼難：把意圖講清楚是地獄難度](alignment/align-02-why-hard.zh.md) | [Why Alignment Is Hard: Spelled-Out Intent Is Devilishly Difficult](alignment/align-02-why-hard.en.md) | 2026-08-04 |
+| 3 | [對齊與 AGI：為什麼全球最頂尖的實驗室，把寶貴人力押在上面](alignment/align-03-agi.zh.md) | [Alignment and AGI: Why the World's Top Labs Bet Their Best People on It](alignment/align-03-agi.en.md) | 2026-08-04 |
 
 ## 📬 Contribute
 
