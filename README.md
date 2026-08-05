@@ -7,11 +7,11 @@
 | Part | Title | 篇數 |
 |---|---|---|
 | **00** | **Foundations** / 導論 | 5 |
-| **01** | **How Models Work** / 模型原理 | 20 |
+| **01** | **How Models Work** / 模型原理 | 22 |
 | **02** | **Building Applications** / 建構應用 | 22 |
-| **03** | **Tools & Platforms** / 工具與平台 | 61 |
+| **03** | **Tools & Platforms** / 工具與平台 | 64 |
 | **04** | **Industry & Business** / 產業與商業 | 12 |
-| **05** | **Safety & Society** / 安全與社會 | 10 |
+| **05** | **Safety & Society** / 安全與社會 | 16 |
 
 ## 00 · Foundations / 導論 (5 篇)
 
@@ -29,11 +29,11 @@
 | 4 | [為什麼是現在：2020 年代 AI 浪潮的真相](intro/intro-04-why-now.zh.md) | [Why Now: The Truth About the 2020s AI Wave](intro/intro-04-why-now.en.md) | 2026-08-04 |
 | 5 | [弱 AI vs AGI：專家到底在吵什麼](intro/intro-05-agi.zh.md) | [Narrow AI vs. AGI: What the Experts Are Actually Fighting About](intro/intro-05-agi.en.md) | 2026-08-04 |
 
-## 01 · How Models Work / 模型原理 (20 篇)
+## 01 · How Models Work / 模型原理 (22 篇)
 
 > From next-token prediction to training and model families.
 
-### LLM Core / LLM 基礎  (5 篇)
+### LLM Core / LLM 基礎  (6 篇)
 
 > How models predict the next word: tokens, context, sampling, hallucination.
 
@@ -44,8 +44,9 @@
 | 3 | [上下文窗口：模型能看到多遠](llm-core/llmcore-03-context.zh.md) | [The Context Window: How Far the Model Can See](llm-core/llmcore-03-context.en.md) | 2026-08-04 |
 | 4 | [抽樣與溫度：怎麼「猜」是可以調的](llm-core/llmcore-04-sampling.zh.md) | [Sampling & Temperature: How the “Guessing” Can Be Tuned](llm-core/llmcore-04-sampling.en.md) | 2026-08-04 |
 | 5 | [幻覺：當預測失誤時](llm-core/llmcore-05-hallucination.zh.md) | [Hallucination: When the Prediction Goes Wrong](llm-core/llmcore-05-hallucination.en.md) | 2026-08-04 |
+| 6 | [從分數到文字：解碼全流程](llm-core/llmcore-06-from-logits-to-words.zh.md) | [From Scores to Words: The Decoding Pipeline](llm-core/llmcore-06-from-logits-to-words.en.md) | 2026-08-04 |
 
-### LLM Internals / LLM 原理  (4 篇)
+### LLM Internals / LLM 原理  (5 篇)
 
 > Attention, RAG, embeddings, quantization — how models work.
 
@@ -55,6 +56,7 @@
 | 2 | [嵌入與向量搜尋：把語意放進座標空間](llm-internals/llm-02-embeddings.zh.md) | [Embeddings and Vector Search: Putting Semantics into Coordinates](llm-internals/llm-02-embeddings.en.md) | 2026-08-01 |
 | 3 | [RAG 從第一性原理講起：檢索增強生成](llm-internals/llm-03-rag.zh.md) | [RAG from First Principles: Retrieval-Augmented Generation](llm-internals/llm-03-rag.en.md) | 2026-08-01 |
 | 4 | [量化：用更少的記憶體跑模型](llm-internals/llm-04-quantization.zh.md) | [Quantization: Running Models on Less Memory](llm-internals/llm-04-quantization.en.md) | 2026-08-01 |
+| 5 | [微調基礎](llm-internals/llm-05-fine-tuning-basics.zh.md) | [Fine-tuning Basics](llm-internals/llm-05-fine-tuning-basics.en.md) | 2026-08-04 |
 
 ### Training / 模型訓練  (5 篇)
 
@@ -142,7 +144,7 @@
 | 2 | [MCP 架構：Server、Client、工具與資源](mcp/mcp-02-architecture.zh.md) | [MCP Architecture: Server, Client, Tools, and Resources](mcp/mcp-02-architecture.en.md) | 2026-08-04 |
 | 3 | [寫一個自己的 MCP Server](mcp/mcp-03-build-your-own.zh.md) | [Build Your Own MCP Server](mcp/mcp-03-build-your-own.en.md) | 2026-08-04 |
 
-## 03 · Tools & Platforms / 工具與平台 (61 篇)
+## 03 · Tools & Platforms / 工具與平台 (64 篇)
 
 > Claude Code, local AI, model providers, and vector DBs.
 
@@ -204,7 +206,7 @@
 | 50 | [一次任務的生命週期：Claude Code 代理迴圈逐步拆解](claude-code/claude-code-49-agent-loop.zh.md) | [Life of a Task: The Claude Code Agent Loop, Step by Step](claude-code/claude-code-49-agent-loop.en.md) | 2026-07-28 |
 | 51 | [Claude Code 完全入門指南](claude-code/claude-code-guide.zh.md) | [Claude Code Complete Beginner's Guide](claude-code/claude-code-guide.en.md) | 2026-07-27 |
 
-### Local AI / 本地 AI  (4 篇)
+### Local AI / 本地 AI  (7 篇)
 
 > Ollama, llama.cpp, self-hosted models, offline inference.
 
@@ -214,6 +216,9 @@
 | 2 | [llama.cpp 與 GGUF 解析](local-ai/local-02-llamacpp.zh.md) | [llama.cpp and GGUF, Explained](local-ai/local-02-llamacpp.en.md) | 2026-08-01 |
 | 3 | [Apple Silicon 與 NVIDIA：在你的硬體上跑模型](local-ai/local-03-mac-vs-gpu.zh.md) | [Apple Silicon vs NVIDIA: Running Models on Your Hardware](local-ai/local-03-mac-vs-gpu.en.md) | 2026-08-01 |
 | 4 | [打造一套完全私密的本地 RAG 流程](local-ai/local-04-local-rag.zh.md) | [Build a Private Local RAG Stack](local-ai/local-04-local-rag.en.md) | 2026-08-01 |
+| 5 | [硬體怎麼選：容量、頻寬與預算的三方平衡](local-ai/local-05-hardware.zh.md) | [Choosing Hardware: Balancing Capacity, Bandwidth, and Budget](local-ai/local-05-hardware.en.md) | 2026-08-04 |
+| 6 | [量化分級實戰：Q4 / Q5 / Q6 / Q8 怎麼挑](local-ai/local-06-quantization-tiers.zh.md) | [Quantization Tiers in Practice: Picking Between Q4 / Q5 / Q6 / Q8](local-ai/local-06-quantization-tiers.en.md) | 2026-08-04 |
+| 7 | [離線與隱私：資料不離開你的機器](local-ai/local-07-offline-privacy.zh.md) | [Offline and Privacy: Keeping Data Off Your Machine](local-ai/local-07-offline-privacy.en.md) | 2026-08-04 |
 
 ### Providers / 模型供應商  (3 篇)
 
@@ -279,7 +284,7 @@
 | 2 | [給開發者的 AI 學習路徑：從「會問」到「會建」](ai-work/work-02-learning-path.zh.md) | [An AI Learning Path for Developers: From Asking to Building](ai-work/work-02-learning-path.en.md) | 2026-08-04 |
 | 3 | [給非開發者的 AI 指南：不寫程式，也能把 AI 用起來](ai-work/work-03-non-developers.zh.md) | [An AI Guide for Non-Developers: Use AI Without Writing Code](ai-work/work-03-non-developers.en.md) | 2026-08-04 |
 
-## 05 · Safety & Society / 安全與社會 (10 篇)
+## 05 · Safety & Society / 安全與社會 (16 篇)
 
 > Security, alignment, policy, and ethics.
 
@@ -306,6 +311,26 @@
 | 1 | [對齊：讓 AI 做我們真正想做的事](alignment/align-01-what-is-alignment.zh.md) | [Alignment: Making AI Do What We Actually Mean](alignment/align-01-what-is-alignment.en.md) | 2026-08-04 |
 | 2 | [為什麼對齊這麼難：把意圖講清楚是地獄難度](alignment/align-02-why-hard.zh.md) | [Why Alignment Is Hard: Spelled-Out Intent Is Devilishly Difficult](alignment/align-02-why-hard.en.md) | 2026-08-04 |
 | 3 | [對齊與 AGI：為什麼全球最頂尖的實驗室，把寶貴人力押在上面](alignment/align-03-agi.zh.md) | [Alignment and AGI: Why the World's Top Labs Bet Their Best People on It](alignment/align-03-agi.en.md) | 2026-08-04 |
+
+### Policy / 政策與法規  (3 篇)
+
+> The EU AI Act and global governance.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [歐盟 AI 法案：全世界第一部 AI 法律長什麼樣](policy/policy-01-eu-ai-act.zh.md) | [The EU AI Act: The World's First AI Law](policy/policy-01-eu-ai-act.en.md) | 2026-08-04 |
+| 2 | [各國 AI 治理：四條路線大比較](policy/policy-02-global.zh.md) | [How the World Regulates AI: Four Routes Side by Side](policy/policy-02-global.en.md) | 2026-08-04 |
+| 3 | [開源與監管的張力：可審計的透明，還是管不住的模型？](policy/policy-03-open-source.zh.md) | [Open Source vs. Regulation: Auditable Transparency, or Ungovernable Models?](policy/policy-03-open-source.en.md) | 2026-08-04 |
+
+### Ethics / 倫理與偏見  (3 篇)
+
+> Bias, responsible deployment, deepfakes.
+
+| # | 文章 (中文) | English | 日期 |
+|---|---|---|---|
+| 1 | [偏見從哪來：模型只是資料的影子](ethics/ethics-01-bias.zh.md) | [Where Bias Comes From: A Model Is the Shadow of Its Data](ethics/ethics-01-bias.en.md) | 2026-08-04 |
+| 2 | [負責任部署：把模型放上線前後，該做的每一件事](ethics/ethics-02-responsible-deployment.zh.md) | [Responsible Deployment: What It Actually Takes to Put a Model in Production](ethics/ethics-02-responsible-deployment.en.md) | 2026-08-04 |
+| 3 | [深偽與資訊操縱：當『看到的』不再可信](ethics/ethics-03-deepfakes.zh.md) | [Deepfakes and Information Manipulation: When Seeing Stops Being Believing](ethics/ethics-03-deepfakes.en.md) | 2026-08-04 |
 
 ## 📬 Contribute
 
